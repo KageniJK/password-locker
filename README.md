@@ -1,9 +1,9 @@
 # Password Locker
 Moringa school core week 3 Friday IP to create a password locker.
 
-##By: James Kageni
+## By: James Kageni
 
-####Description
+#### Description
 This project contains a password locker. You can create a user with a username that will store your passwords.
 the user can then add, copy or delete contacts from their account.
 
