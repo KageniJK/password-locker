@@ -4,7 +4,6 @@
     <list default="true" id="5199c7d3-5b89-4cd8-aade-ea17c8f7532d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../user.py" beforeDir="false" afterPath="$PROJECT_DIR$/../user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,16 +42,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="434" />
-          <entry key="py" value="1244" />
+          <entry key="py" value="1671" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="434" />
-          <entry key="Python" value="1244" />
+          <entry key="Python" value="1671" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="." />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -68,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="34">
+              <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
               <folding>
                 <marker date="1535101734990" expanded="true" signature="11:16" ph="..." />
               </folding>
@@ -80,14 +82,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="272">
+              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1535101174103" expanded="true" signature="76:81" ph="..." />
+                <marker date="1535109448704" expanded="true" signature="110:115" ph="..." />
+                <marker date="1535109448704" expanded="true" signature="765:1299" ph="..." />
               </folding>
             </state>
           </provider>
@@ -103,8 +105,8 @@
       <list>
         <option value="$PROJECT_DIR$/../credentials.py" />
         <option value="$PROJECT_DIR$/../README.md" />
-        <option value="$PROJECT_DIR$/../test.py" />
         <option value="$PROJECT_DIR$/../user.py" />
+        <option value="$PROJECT_DIR$/../test.py" />
       </list>
     </option>
   </component>
@@ -146,28 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test.TestLocker.test_save">
-    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="password-locker" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../user.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for test.testPasswords">
     <configuration name="Unittests for test.TestLocker" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="password-locker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,6 +177,34 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test.TestUser" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="password-locker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestUser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test.testPasswords" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="password-locker" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.testPasswords&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="password-locker" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,17 +220,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.user" />
       <item itemvalue="Python tests.Unittests for test.TestLocker" />
       <item itemvalue="Python tests.Unittests in test.py" />
       <item itemvalue="Python tests.Unittests for test.TestLocker.test_save" />
+      <item itemvalue="Python tests.Unittests for test.TestUser" />
+      <item itemvalue="Python tests.Unittests for test.testPasswords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test.testPasswords" />
+        <item itemvalue="Python tests.Unittests for test.TestUser" />
         <item itemvalue="Python tests.Unittests for test.TestLocker.test_save" />
         <item itemvalue="Python tests.Unittests in test.py" />
         <item itemvalue="Python tests.Unittests for test.TestLocker" />
-        <item itemvalue="Python.user" />
       </list>
     </recent_temporary>
   </component>
@@ -245,21 +256,42 @@
     <history-entry file="Unittests_in_test_py - 2018.08.24 at 11h 59m 34s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_TestLocker_test_save - 2018.08.24 at 12h 09m 00s.xml">
+      <configuration name="Unittests for test.TestLocker.test_save" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestUser - 2018.08.24 at 12h 30m 10s.xml">
+      <configuration name="Unittests for test.TestUser" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_testPasswords - 2018.08.24 at 12h 51m 59s.xml">
+      <configuration name="Unittests for test.testPasswords" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_testPasswords - 2018.08.24 at 12h 52m 10s.xml">
+      <configuration name="Unittests for test.testPasswords" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="824" y="27" width="776" height="873" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24568394" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19654715" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.249668" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32934928" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32880434" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32880434" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -273,16 +305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../credentials.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding>
-            <marker date="1535097614540" expanded="true" signature="18:23" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -293,23 +315,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../test.py">
+    <entry file="file://$PROJECT_DIR$/../user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="34">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1535101174103" expanded="true" signature="76:81" ph="..." />
+            <marker date="1535101734990" expanded="true" signature="11:16" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../user.py">
+    <entry file="file://$PROJECT_DIR$/../credentials.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="34">
+          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
           <folding>
-            <marker date="1535101734990" expanded="true" signature="11:16" ph="..." />
+            <marker date="1535097614540" expanded="true" signature="18:23" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+          <folding>
+            <marker date="1535109448704" expanded="true" signature="110:115" ph="..." />
+            <marker date="1535109448704" expanded="true" signature="765:1299" ph="..." />
           </folding>
         </state>
       </provider>

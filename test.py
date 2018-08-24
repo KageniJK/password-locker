@@ -1,10 +1,11 @@
 import unittest
 from user import User
+from credentials import Credentials
 
 
-class TestLocker(unittest.TestCase):
+class TestUser(unittest.TestCase):
     """
-    TestLocker class to test the functionality of the app
+    TestLocker class to test the functionality of the user class
     """
 
     def setUp(self):
@@ -32,6 +33,28 @@ class TestLocker(unittest.TestCase):
         self.new_user.save_user()
         self.assertEqual(len(User.user_list), 1)
 
+
+class testPasswords(unittest.TestCase):
+    """
+    Test class to test the functionality of the Passwords class
+    """
+
+    def setUp(self):
+        """
+        test case for testing whether the passwords initialize properly
+        :return:
+        """
+
+        self.new_password = Credentials("instagram", "Password")
+
+    def test_init(self):
+        """
+        test to see whether the password initializes properly
+        """
+
+        self.assertEqual(self.new_password.account, "instagram")
+        self.assertEqual(self.new_password.password, "Password")
+    DEF
 
 if __name__ == '__main__':
     unittest.main()
