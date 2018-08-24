@@ -54,7 +54,16 @@ class testPasswords(unittest.TestCase):
 
         self.assertEqual(self.new_password.account, "instagram")
         self.assertEqual(self.new_password.password, "Password")
-    DEF
+
+    def test_save(self):
+        """
+        test to check whether the password saves
+        :return:
+        """
+
+        self.new_password.save_password()
+        self.assertEqual(len(Credentials.password_list), 1)
+
 
 if __name__ == '__main__':
     unittest.main()
