@@ -23,6 +23,15 @@ class TestLocker(unittest.TestCase):
 
         self.assertEqual(self.new_user.name, 'Kageni')
 
+    def test_save(self):
+        """
+        test case for saving an object of type user
+        :return:
+        """
+
+        self.new_user.save_user()
+        self.assertEqual(len(User.user_list), 1)
+
 
 if __name__ == '__main__':
     unittest.main()
