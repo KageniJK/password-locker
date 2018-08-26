@@ -2,38 +2,6 @@ import unittest
 from user import User
 from credentials import Credentials
 
-
-class TestUser(unittest.TestCase):
-    """
-    TestLocker class to test the functionality of the user class
-    """
-
-    def setUp(self):
-        """
-        setup of the class to test against
-        :return:
-        """
-
-        self.new_user = User('Kageni')
-
-    def test_init(self):
-        """
-        test case to see if the object initializes properly
-        :return:
-        """
-
-        self.assertEqual(self.new_user.name, 'Kageni')
-
-    def test_save(self):
-        """
-        test case for saving an object of type user
-        :return:
-        """
-
-        self.new_user.save_user()
-        self.assertEqual(len(User.user_list), 1)
-
-
 class testPasswords(unittest.TestCase):
     """
     Test class to test the functionality of the Passwords class
@@ -63,6 +31,37 @@ class testPasswords(unittest.TestCase):
 
         self.new_password.save_password()
         self.assertEqual(len(Credentials.password_list), 1)
+
+
+class TestUser(unittest.TestCase):
+    """
+    TestLocker class to test the functionality of the user class
+    """
+
+    def setUp(self):
+        """
+        setup of the class to test against
+        :return:
+        """
+
+        self.new_user = User('Kageni')
+
+    def test_init(self):
+        """
+        test case to see if the object initializes properly
+        :return:
+        """
+
+        self.assertEqual(self.new_user.name, 'Kageni', {})
+
+    def test_save(self):
+        """
+        test case for saving an object of type user
+        :return:
+        """
+
+        self.new_user.save_user()
+        self.assertEqual(len(User.user_list), 1)
 
 
 if __name__ == '__main__':

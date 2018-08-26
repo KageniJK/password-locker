@@ -1,9 +1,12 @@
+from typing import Dict, Any
+
+
 class Credentials:
     """
     Class that generates new instances of passwords
     """
 
-    password_list = []
+    password_list: Dict[Any, Any] = {}
 
     def __init__(self, account, password):
         """
@@ -19,4 +22,17 @@ class Credentials:
         :return:
         """
 
-        Credentials.password_list.append(self)
+        # Credentials.password_list.add(self)
+        print("enter the account")
+        account = input()
+
+        print("enter the password")
+        password = input()
+
+        Credentials.password_list[account] = password
+        print(self.password_list)
+
+        # print(password_list)
+
+
+
