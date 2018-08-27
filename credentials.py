@@ -1,4 +1,5 @@
 from typing import Dict, Any
+from runner import Runner
 
 
 class Credentials:
@@ -16,24 +17,21 @@ class Credentials:
         self.account = account
         self.password = password
 
-    # def enter_password(self):
-    #     """
-    #     entering the account and password
-    #     :return:
-    #     """
-    #
-    #     print("enter the account")
-    #     self.account = input()
-    #
-    #     print("enter the password")
-    #     self.password = input()
-
-    def save_password(self, account, password):
+    def save_password(self):
         """
         saving the passwords
         :return:
         """
-        self.account = account
-        self.password = password
 
         Credentials.password_list[account] = password
+
+
+    def generate(size=6, chars=string.ascii_uppercase + string.digits):
+        """
+        generates new random password
+        :return:
+        """
+
+        return ''.join(random.choice(chars) for _ in range(size))
+
+
