@@ -1,4 +1,4 @@
-from credentials import Credentials
+from user import Credentials
 
 
 
@@ -12,6 +12,4 @@ class Runner:
         init function
         """
 
-        self.new_password = Credentials.save_password('fb', 'password')
-        # self.new_password.Credentials.)
-        print(Credentials.password_list)
+        
