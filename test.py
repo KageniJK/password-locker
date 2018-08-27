@@ -1,6 +1,6 @@
 import unittest
 from user import User
-from credentials import Credentials
+from user import Credentials
 
 class testPasswords(unittest.TestCase):
     """
@@ -31,6 +31,7 @@ class testPasswords(unittest.TestCase):
 
         self.new_password.save_password()
         self.assertEqual(len(Credentials.password_list), 1)
+        print(Credentials.password_list)
 
 
 class TestUser(unittest.TestCase):
@@ -53,7 +54,7 @@ class TestUser(unittest.TestCase):
         :return:
         """
 
-        self.assertEqual(self.new_user.name, 'Kageni', {})
+        self.assertEqual(self.new_user.name, 'Kageni', )
         self.assertEqual(self.new_user1.name, 'James')
 
     def test_save(self):

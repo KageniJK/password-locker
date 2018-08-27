@@ -9,7 +9,7 @@ class Credentials:
     Class that generates new instances of passwords
     """
 
-    password_list: Dict[Any, Any] = {}
+    password_list: Dict = {}
 
     def __init__(self, account, password):
         """
@@ -25,7 +25,7 @@ class Credentials:
         :return:
         """
 
-        Credentials.password_list[account] = password
+        Credentials.password_list[Credentials.account] = Credentials.password
 
 
     def generate(size=6, chars=string.ascii_uppercase + string.digits):
