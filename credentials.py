@@ -16,23 +16,24 @@ class Credentials:
         self.account = account
         self.password = password
 
-    def save_password(self):
+    # def enter_password(self):
+    #     """
+    #     entering the account and password
+    #     :return:
+    #     """
+    #
+    #     print("enter the account")
+    #     self.account = input()
+    #
+    #     print("enter the password")
+    #     self.password = input()
+
+    def save_password(self, account, password):
         """
         saving the passwords
         :return:
         """
-
-        # Credentials.password_list.add(self)
-        print("enter the account")
-        account = input()
-
-        print("enter the password")
-        password = input()
+        self.account = account
+        self.password = password
 
         Credentials.password_list[account] = password
-        print(self.password_list)
-
-        # print(password_list)
-
-
-

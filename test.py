@@ -45,6 +45,7 @@ class TestUser(unittest.TestCase):
         """
 
         self.new_user = User('Kageni')
+        self.new_user1 = User('James')
 
     def test_init(self):
         """
@@ -53,6 +54,7 @@ class TestUser(unittest.TestCase):
         """
 
         self.assertEqual(self.new_user.name, 'Kageni', {})
+        self.assertEqual(self.new_user1.name, 'James')
 
     def test_save(self):
         """
@@ -61,7 +63,9 @@ class TestUser(unittest.TestCase):
         """
 
         self.new_user.save_user()
-        self.assertEqual(len(User.user_list), 1)
+        self.new_user1.save_user()
+        self.assertEqual(len(User.user_list), 2)
+        print(User.user_list)
 
 
 if __name__ == '__main__':
